@@ -17,7 +17,7 @@ RandomForestClassifier utilise une méthode d'ensemble, ce qui signifie qu'elles
 
 Nous avons essayer utilisé ces hyperparamètres :
 
-- `n_estimators=100`: Le nombre d'arbres dans la forêt. Nous avons choisi une valeur raisonnable pour équilibrer la performance et le coût de calcul.
+- `n_estimators=300`: Le nombre d'arbres dans la forêt. Nous avons choisi une valeur raisonnable pour équilibrer la performance et le coût de calcul.
 - `random_state=42`: Pour assurer la reproductibilité des résultats, en fixant la graine aléatoire.
 
 Ces valeurs ont été choisies après des expérimentations et des ajustements pour garantir une bonne performance sans surajustement excessif.
